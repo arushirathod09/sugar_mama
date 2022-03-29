@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* CSS Document */
+
+main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+	font-display: auto;
+}
+
+.parallax {
+	background: url("../images/header.jpg") repeat fixed 100%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.parallaxtwo {
+	background: url("../images/heart.gif") repeat fixed 100%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.parallaxthree {
+	background: url("../images/bubblegum.gif") repeat fixed 100%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.parallaxfour {
+	background: url("../images/drops.gif") repeat fixed 100%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.parallaxfive {
+	background: url("../images/lollipop.gif") repeat fixed 100%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.parallaxsix {
+	background: url("../images/shelfone.gif") repeat fixed 100%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.parallax-inner {
+	padding-top: 20%;
+	padding-bottom: 22%;
+}
+
+h4 {
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 300px;
+	margin-bottom: 450px;
+	font-size: 50px;
+	color:#FFFFFF;
+	padding: 25px;
+	border: solid;
+	border-color: #FEBE10;
+	border-width: thick;
+	background-color: #EA9AC0;
+
+}
+
+h3 { 
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 450px;
+	font-size: 80px;
+	color: #FEBE10;
+	text-align: center;
+}
+
+h2 {
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 450px;
+	font-size: 50px;
+	color:#FFFFFF;
+	padding: 25px;
+	border: solid;
+	border-color: #FEBE10;
+	border-width: thick;
+	background-color: #EA9AC0;
+
+}
+
+h1 {
+	font-size: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+.navbar {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #FEBE10;
+	width: 100%;
+	height: 70px;
+	z-index: 1;
+}
+
+.nav {
+	display: flex;
+	justify-content: right;
+	list-style: none;
+	margin-right: 15%;
+}
+
+.logo {
+	flex: 1 1 auto;
+	margin-left: 10%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+a {
+	margin: 15px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+li {
+	list-style: none;
+}
+
+
+@media (max-width : 1800px ){
+	.parallax {
+	background: url("../images/small_header.jpg") repeat fixed 50%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.parallaxtwo {
+	background: url("../images/heart.gif") repeat fixed 50%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.parallaxthree {
+	background: url("../images/bubblegum.gif") repeat fixed 50%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.parallaxfour {
+	background: url("../images/drops.gif") repeat fixed 50%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.parallaxfive {
+	background: url("../images/lollipop.gif") repeat fixed 50%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.parallaxsix {
+	background: url("../images/shelfone.gif") repeat fixed 50%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+.navbar {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #FEBE10;
+	width: 100%;
+	height: 120px;
+	z-index: 1;
+}
+
+.nav {
+	display: flex;
+	justify-content: right;
+	list-style: none;
+	margin-right: 15%;
+}
+
+.logo {
+	flex: 1 1 auto;
+	margin-left: 13.5%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+}
